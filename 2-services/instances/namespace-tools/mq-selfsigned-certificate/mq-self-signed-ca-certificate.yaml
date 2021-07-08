@@ -11,7 +11,7 @@ spec:
   isCA: true
   dnsNames:
     - >- 
-      *.<cluster-domain>
+      *.gk-demo-test-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-east.containers.appdomain.cloud
   secretName: mq-self-signed-ca-cert
   issuerRef:
     group: cert-manager.io
